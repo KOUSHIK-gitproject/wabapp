@@ -27,7 +27,7 @@ namespace WebApplication1
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!....welcome");
+                await context.Response.WriteAsync("Hello World!....welcome...new ci/cd project");
 
             });
         }
